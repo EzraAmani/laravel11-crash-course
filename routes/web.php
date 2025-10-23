@@ -15,3 +15,5 @@ Route::get('/', [WelcomeController::class, 'welcome'])->name('welcome');
 // Route::delete('/note/{id}', [NoteController::class, 'destroy'])->name('note.destroy');
 
 Route::resource('note', NoteController::class);
+Route::resource('notes', NoteController::class);
+
